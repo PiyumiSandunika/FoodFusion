@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.exe.config
+C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.exe
+C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.pdb
+C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Form1.resources
+C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Properties.Resources.resources
+C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.GenerateResource.cache
+C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.exe
+C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.pdb
+C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.RegisterForm.resources

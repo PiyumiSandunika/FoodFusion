@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\user\\desktop\\gui project\\foodfusion\\desktopapplication\\desktopapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\r1jkrnma..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\r1jkrnma..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\r1jkrnma..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\r1jkrnma..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\r1jkrnma..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-06T11:55:19.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterForm.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "DesktopApplication\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\RegisterForm.cs",
+              "RelativeToolTip": "DesktopApplication\\RegisterForm.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T02:55:44.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\Form1.cs",
+              "RelativeDocumentMoniker": "DesktopApplication\\Form1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\Form1.cs*",
+              "RelativeToolTip": "DesktopApplication\\Form1.cs*",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswFMAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T02:54:58.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\Form1.cs",
+              "RelativeDocumentMoniker": "DesktopApplication\\Form1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\Form1.cs [Design]*",
+              "RelativeToolTip": "DesktopApplication\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T17:55:54.547Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "DesktopApplication\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\RegisterForm.cs [Design]",
+              "RelativeToolTip": "DesktopApplication\\RegisterForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T02:24:51.637Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
