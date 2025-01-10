@@ -78,6 +78,11 @@ namespace DesktopApplication
                             if(table.Rows.Count >= 1)
                             {
                                 MessageBox.Show("Login successfully!", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                AdminMainForm adminForm = new AdminMainForm();
+                                adminForm.Show();
+
+                                this.Hide();
                             }
                             else
                             {

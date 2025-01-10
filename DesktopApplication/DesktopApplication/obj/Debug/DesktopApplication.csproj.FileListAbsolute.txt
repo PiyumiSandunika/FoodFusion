@@ -9,3 +9,6 @@ C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplicati
 C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.exe
 C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.pdb
 C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.RegisterForm.resources
+C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.AdminMainForm.resources
+C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.AdminDashboardForm.resources
+C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.AdminAddUsers.resources
