@@ -11,12 +11,13 @@ namespace DesktopApplication
 {
     class AdminAddUsersData
     {
-        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\restaurant.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=True");
+        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\restaurant.mdf;Integrated Security=True;Connect Timeout=30");
         public int ID { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
         public string Role { get; set; }
         public string Status { get; set; }
+        public string Image {  get; set; }
         public string DateRegistered { get; set; }
 
         public List<AdminAddUsersData> usersListData()
@@ -41,9 +42,10 @@ namespace DesktopApplication
                             userData.ID = (int)reader["id"];
                             userData.Username = reader["username"].ToString();
                             userData.Password = reader["password"].ToString();
-                            userData.Role = reader["Role"].ToString();
+                            userData.Role = reader["role"].ToString();
                             userData.Status = reader["status"].ToString();
-                            userData.DateRegistered = reader["data_reg"].ToString();
+                            userData.Image = reader["profile_image"].ToString();
+                            userData.DateRegistered = reader["date_reg"].ToString();
 
                             listData.Add(userData);
                         }
