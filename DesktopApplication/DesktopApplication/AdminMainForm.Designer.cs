@@ -42,6 +42,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.adminDashboardForm1 = new DesktopApplication.AdminDashboardForm();
             this.adminAddProducts1 = new DesktopApplication.AdminAddProducts();
             this.adminAddUsers1 = new DesktopApplication.AdminAddUsers();
             this.panel1.SuspendLayout();
@@ -145,6 +146,7 @@
             this.button4.TabIndex = 17;
             this.button4.Text = "Add Products";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button2
             // 
@@ -158,6 +160,7 @@
             this.button2.TabIndex = 16;
             this.button2.Text = "Add Cashier";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -171,6 +174,7 @@
             this.button1.TabIndex = 14;
             this.button1.Text = "Dashboard";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
             // 
@@ -227,6 +231,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.adminDashboardForm1);
             this.panel3.Controls.Add(this.adminAddProducts1);
             this.panel3.Controls.Add(this.adminAddUsers1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -234,6 +239,13 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1197, 745);
             this.panel3.TabIndex = 13;
+            // 
+            // adminDashboardForm1
+            // 
+            this.adminDashboardForm1.Location = new System.Drawing.Point(0, 0);
+            this.adminDashboardForm1.Name = "adminDashboardForm1";
+            this.adminDashboardForm1.Size = new System.Drawing.Size(1197, 745);
+            this.adminDashboardForm1.TabIndex = 2;
             // 
             // adminAddProducts1
             // 
@@ -290,5 +302,6 @@
         private System.Windows.Forms.Panel panel3;
         private AdminAddUsers adminAddUsers1;
         private AdminAddProducts adminAddProducts1;
+        private AdminDashboardForm adminDashboardForm1;
     }
 }

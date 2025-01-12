@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\adminaddproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\adminaddproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\adminaddproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\adminaddproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DesktopApplication\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,20 +11,12 @@
       "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\user\\desktop\\gui project\\foodfusion\\desktopapplication\\desktopapplication\\adminaddproductsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\adminaddproductsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\user\\desktop\\gui project\\foodfusion\\desktopapplication\\desktopapplication\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\adminaddusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\adminaddusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminAddUsersData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:DesktopApplication\\AdminAddUsersData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\adminaddusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\adminaddusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DesktopApplication\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
@@ -54,119 +34,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminAddProductsData.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminAddProductsData.cs",
-              "RelativeDocumentMoniker": "DesktopApplication\\AdminAddProductsData.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminAddProductsData.cs",
-              "RelativeToolTip": "DesktopApplication\\AdminAddProductsData.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAWwBcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T03:58:16.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminAddProducts.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminAddProducts.cs",
-              "RelativeDocumentMoniker": "DesktopApplication\\AdminAddProducts.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminAddProducts.cs*",
-              "RelativeToolTip": "DesktopApplication\\AdminAddProducts.cs*",
-              "ViewState": "AgIAAPIAAAAAAAAAAAAgwB4BAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T16:32:03.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminAddProducts.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminAddProducts.cs",
-              "RelativeDocumentMoniker": "DesktopApplication\\AdminAddProducts.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminAddProducts.cs [Design]*",
-              "RelativeToolTip": "DesktopApplication\\AdminAddProducts.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T16:15:58.595Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SQLQuery1.sql ",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\SQLQuery1.sql",
               "RelativeDocumentMoniker": "DesktopApplication\\SQLQuery1.sql",
-              "ToolTip": "SQLQuery1.sql ",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\SQLQuery1.sql",
+              "RelativeToolTip": "DesktopApplication\\SQLQuery1.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2025-01-11T07:48:22.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminMainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminMainForm.cs",
-              "RelativeDocumentMoniker": "DesktopApplication\\AdminMainForm.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminMainForm.cs [Design]",
-              "RelativeToolTip": "DesktopApplication\\AdminMainForm.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "AdminDashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminDashboardForm.cs",
+              "RelativeDocumentMoniker": "DesktopApplication\\AdminDashboardForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminDashboardForm.cs [Design]",
+              "RelativeToolTip": "DesktopApplication\\AdminDashboardForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T05:24:10.381Z",
+              "WhenOpened": "2025-01-12T13:28:47.832Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AdminMainForm.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminMainForm.cs",
               "RelativeDocumentMoniker": "DesktopApplication\\AdminMainForm.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminMainForm.cs",
-              "RelativeToolTip": "DesktopApplication\\AdminMainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAcAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminMainForm.cs*",
+              "RelativeToolTip": "DesktopApplication\\AdminMainForm.cs*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwDwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T02:24:38.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AdminAddUsers.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminAddUsers.cs",
-              "RelativeDocumentMoniker": "DesktopApplication\\AdminAddUsers.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminAddUsers.cs [Design]",
-              "RelativeToolTip": "DesktopApplication\\AdminAddUsers.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "AdminMainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminMainForm.cs",
+              "RelativeDocumentMoniker": "DesktopApplication\\AdminMainForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminMainForm.cs [Design]*",
+              "RelativeToolTip": "DesktopApplication\\AdminMainForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T17:39:35.877Z",
+              "WhenOpened": "2025-01-07T05:24:10.381Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminAddUsersData.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminAddUsersData.cs",
-              "RelativeDocumentMoniker": "DesktopApplication\\AdminAddUsersData.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminAddUsersData.cs",
-              "RelativeToolTip": "DesktopApplication\\AdminAddUsersData.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAzwBYAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T18:12:44.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdminAddUsers.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminAddUsers.cs",
-              "RelativeDocumentMoniker": "DesktopApplication\\AdminAddUsers.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminAddUsers.cs",
-              "RelativeToolTip": "DesktopApplication\\AdminAddUsers.cs",
-              "ViewState": "AgIAAN4AAAAAAAAAAAAmwDUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T18:08:27.731Z",
-              "EditorCaption": ""
             }
           ]
         }
