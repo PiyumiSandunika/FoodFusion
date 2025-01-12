@@ -42,6 +42,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.adminAddProducts1 = new DesktopApplication.AdminAddProducts();
             this.adminAddUsers1 = new DesktopApplication.AdminAddUsers();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -226,12 +227,20 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.adminAddProducts1);
             this.panel3.Controls.Add(this.adminAddUsers1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(303, 45);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1197, 745);
             this.panel3.TabIndex = 13;
+            // 
+            // adminAddProducts1
+            // 
+            this.adminAddProducts1.Location = new System.Drawing.Point(0, 0);
+            this.adminAddProducts1.Name = "adminAddProducts1";
+            this.adminAddProducts1.Size = new System.Drawing.Size(1193, 745);
+            this.adminAddProducts1.TabIndex = 1;
             // 
             // adminAddUsers1
             // 
@@ -280,5 +289,6 @@
         private System.Windows.Forms.Button logout_btn;
         private System.Windows.Forms.Panel panel3;
         private AdminAddUsers adminAddUsers1;
+        private AdminAddProducts adminAddProducts1;
     }
 }

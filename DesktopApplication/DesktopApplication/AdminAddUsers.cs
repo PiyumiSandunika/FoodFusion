@@ -174,7 +174,7 @@ namespace DesktopApplication
             }
             catch( Exception ex )
             {
-                MessageBox.Show("No Image :3", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error );
+                MessageBox.Show("No Image :3" + ex , "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error );
             }
 
             
