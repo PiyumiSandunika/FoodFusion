@@ -63,7 +63,7 @@ namespace DesktopApplication
                     {
                         connect.Open();
 
-                        string selectAccount = "SELECT * FROM users WHERE username = @usern AND password = @pass AND status = @status";
+                        string selectAccount = "SELECT COUNT(*) FROM users WHERE username = @usern AND password = @pass AND status = @status";
 
                         using(SqlCommand cmd = new SqlCommand(selectAccount, connect))
                         {
@@ -71,24 +71,42 @@ namespace DesktopApplication
                             cmd.Parameters.AddWithValue("@pass", login_password.Text.Trim());
                             cmd.Parameters.AddWithValue("@status", "Active");
 
-                            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-                            DataTable table = new DataTable();
-                            adapter.Fill(table);
+                            int rowCount = (int)cmd.ExecuteScalar();
 
-                            if(table.Rows.Count >= 1)
+                            if(rowCount > 0)
                             {
-                                MessageBox.Show("Login successfully!", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                string selectRole = "SELECT role FROM users WHERE username = @usern AND password = @pass";
 
-                                AdminMainForm adminForm = new AdminMainForm();
-                                adminForm.Show();
+                                using(SqlCommand getRole = new SqlCommand(selectRole, connect))
+                                {
+                                    getRole.Parameters.AddWithValue("@usern", login_username.Text.Trim());
+                                    getRole.Parameters.AddWithValue("@pass", login_password.Text.Trim());
 
-                                this.Hide();
+                                    string userRole = getRole.ExecuteScalar() as string;
+
+                                    MessageBox.Show("Login successfully!", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                    if (userRole == "Admin")
+                                    {
+                                        AdminMainForm adminForm = new AdminMainForm();
+                                        adminForm.Show();
+
+                                        this.Hide();
+                                    }
+                                    else if (userRole == "Cashier")
+                                    {
+                                        CashierMainForm cashierForm = new CashierMainForm();
+                                        cashierForm.Show();
+
+                                        this.Hide();
+                                    }
+                                }
                             }
                             else
                             {
                                 MessageBox.Show("Incorrect Username/Password or there's no Admin's approval.", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             }
-                        }
+                         }
                     }
                     catch (Exception ex)
                     {

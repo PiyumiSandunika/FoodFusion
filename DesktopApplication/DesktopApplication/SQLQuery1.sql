@@ -33,6 +33,12 @@ CREATE TABLE products
 
 SELECT * FROM products
 
+SELECT * FROM products WHERE date_delete IS NULL
+
+DELETE FROM products WHERE id = 2
+
+
+
 
 
 
