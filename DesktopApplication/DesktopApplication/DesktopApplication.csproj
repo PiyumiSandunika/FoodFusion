@@ -85,6 +85,7 @@
       <DependentUpon>CashierOrderForm.cs</DependentUpon>
     </Compile>
     <Compile Include="CashierOrderFormProdData.cs" />
+    <Compile Include="CashierOrdersData.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

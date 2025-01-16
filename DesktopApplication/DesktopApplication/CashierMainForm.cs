@@ -40,5 +40,10 @@ namespace DesktopApplication
                 this.Hide();
             }
         }
+
+        private void cashierOrderForm1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

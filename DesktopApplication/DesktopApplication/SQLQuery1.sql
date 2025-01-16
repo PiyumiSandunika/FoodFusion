@@ -37,9 +37,25 @@ SELECT * FROM products WHERE date_delete IS NULL
 
 DELETE FROM products WHERE id = 2
 
+SELECT * FROM orders
 
+SELECT * FROM orders WHERE customer_id = 1
 
+SELECT MAX(customer_id) FROM customers
 
+SELECT * FROM customers
 
+ALTER TABLE customers
+ADD amount FLOAT NULL
+
+ALTER TABLE customers
+ADD change FLOAT NULL
+
+ALTER TABLE customers
+ADD users VARCHAR(MAX) NULL
+
+SELECT MAX(customer_id) FROM orders
+
+SELECT SUM(prod_price) FROM orders WHERE customer_id = 1
 
 
