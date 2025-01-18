@@ -40,15 +40,16 @@
             this.username = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.cashierCustomersForm1 = new DesktopApplication.CashierCustomersForm();
             this.cashierOrderForm1 = new DesktopApplication.CashierOrderForm();
             this.adminAddProducts1 = new DesktopApplication.AdminAddProducts();
             this.adminDashboardForm1 = new DesktopApplication.AdminDashboardForm();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -104,7 +105,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 45);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(303, 745);
+            this.panel2.Size = new System.Drawing.Size(285, 745);
             this.panel2.TabIndex = 13;
             // 
             // logout_btn
@@ -113,7 +114,7 @@
             this.logout_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.logout_btn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logout_btn.ForeColor = System.Drawing.Color.White;
-            this.logout_btn.Location = new System.Drawing.Point(19, 677);
+            this.logout_btn.Location = new System.Drawing.Point(11, 677);
             this.logout_btn.Name = "logout_btn";
             this.logout_btn.Size = new System.Drawing.Size(260, 51);
             this.logout_btn.TabIndex = 19;
@@ -127,12 +128,13 @@
             this.customer_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.customer_btn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.customer_btn.ForeColor = System.Drawing.Color.White;
-            this.customer_btn.Location = new System.Drawing.Point(19, 474);
+            this.customer_btn.Location = new System.Drawing.Point(12, 474);
             this.customer_btn.Name = "customer_btn";
             this.customer_btn.Size = new System.Drawing.Size(260, 51);
             this.customer_btn.TabIndex = 18;
             this.customer_btn.Text = "Customers";
             this.customer_btn.UseVisualStyleBackColor = false;
+            this.customer_btn.Click += new System.EventHandler(this.customer_btn_Click);
             // 
             // order_btn
             // 
@@ -140,12 +142,13 @@
             this.order_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.order_btn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.order_btn.ForeColor = System.Drawing.Color.White;
-            this.order_btn.Location = new System.Drawing.Point(19, 407);
+            this.order_btn.Location = new System.Drawing.Point(11, 407);
             this.order_btn.Name = "order_btn";
             this.order_btn.Size = new System.Drawing.Size(260, 51);
             this.order_btn.TabIndex = 17;
             this.order_btn.Text = "Order";
             this.order_btn.UseVisualStyleBackColor = false;
+            this.order_btn.Click += new System.EventHandler(this.order_btn_Click);
             // 
             // addProducts_btn
             // 
@@ -153,12 +156,13 @@
             this.addProducts_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addProducts_btn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addProducts_btn.ForeColor = System.Drawing.Color.White;
-            this.addProducts_btn.Location = new System.Drawing.Point(19, 340);
+            this.addProducts_btn.Location = new System.Drawing.Point(10, 341);
             this.addProducts_btn.Name = "addProducts_btn";
             this.addProducts_btn.Size = new System.Drawing.Size(260, 51);
             this.addProducts_btn.TabIndex = 16;
             this.addProducts_btn.Text = "Add Products";
             this.addProducts_btn.UseVisualStyleBackColor = false;
+            this.addProducts_btn.Click += new System.EventHandler(this.addProducts_btn_Click);
             // 
             // dashboard_btn
             // 
@@ -166,12 +170,13 @@
             this.dashboard_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dashboard_btn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dashboard_btn.ForeColor = System.Drawing.Color.White;
-            this.dashboard_btn.Location = new System.Drawing.Point(19, 273);
+            this.dashboard_btn.Location = new System.Drawing.Point(11, 273);
             this.dashboard_btn.Name = "dashboard_btn";
             this.dashboard_btn.Size = new System.Drawing.Size(260, 51);
             this.dashboard_btn.TabIndex = 14;
             this.dashboard_btn.Text = "Dashboard";
             this.dashboard_btn.UseVisualStyleBackColor = false;
+            this.dashboard_btn.Click += new System.EventHandler(this.dashboard_btn_Click);
             // 
             // username
             // 
@@ -181,7 +186,7 @@
             this.username.AutoSize = true;
             this.username.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.username.ForeColor = System.Drawing.Color.White;
-            this.username.Location = new System.Drawing.Point(130, 209);
+            this.username.Location = new System.Drawing.Point(160, 209);
             this.username.Name = "username";
             this.username.Size = new System.Drawing.Size(62, 20);
             this.username.TabIndex = 15;
@@ -195,7 +200,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(26, 209);
+            this.label3.Location = new System.Drawing.Point(56, 209);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(98, 20);
             this.label3.TabIndex = 14;
@@ -210,57 +215,69 @@
             this.label2.BackColor = System.Drawing.Color.Teal;
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(67, 166);
+            this.label2.Location = new System.Drawing.Point(51, 166);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(190, 27);
             this.label2.TabIndex = 14;
             this.label2.Text = "Cashier\'s Portal";
             // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.adminDashboardForm1);
+            this.panel3.Controls.Add(this.adminAddProducts1);
+            this.panel3.Controls.Add(this.cashierOrderForm1);
+            this.panel3.Controls.Add(this.cashierCustomersForm1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(285, 45);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1215, 745);
+            this.panel3.TabIndex = 14;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::DesktopApplication.Properties.Resources.cutlery;
-            this.pictureBox1.Location = new System.Drawing.Point(102, 60);
+            this.pictureBox1.Location = new System.Drawing.Point(93, 60);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 100);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
-            // panel3
+            // cashierCustomersForm1
             // 
-            this.panel3.Controls.Add(this.cashierOrderForm1);
-            this.panel3.Controls.Add(this.adminAddProducts1);
-            this.panel3.Controls.Add(this.adminDashboardForm1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(303, 45);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1197, 745);
-            this.panel3.TabIndex = 14;
+            this.cashierCustomersForm1.BackColor = System.Drawing.Color.Lavender;
+            this.cashierCustomersForm1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cashierCustomersForm1.Location = new System.Drawing.Point(0, 0);
+            this.cashierCustomersForm1.Name = "cashierCustomersForm1";
+            this.cashierCustomersForm1.Size = new System.Drawing.Size(1215, 745);
+            this.cashierCustomersForm1.TabIndex = 0;
             // 
             // cashierOrderForm1
             // 
             this.cashierOrderForm1.BackColor = System.Drawing.Color.Lavender;
-            this.cashierOrderForm1.Location = new System.Drawing.Point(-1, 0);
+            this.cashierOrderForm1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cashierOrderForm1.Location = new System.Drawing.Point(0, 0);
             this.cashierOrderForm1.Name = "cashierOrderForm1";
-            this.cashierOrderForm1.Size = new System.Drawing.Size(1197, 745);
-            this.cashierOrderForm1.TabIndex = 14;
-            this.cashierOrderForm1.Load += new System.EventHandler(this.cashierOrderForm1_Load);
+            this.cashierOrderForm1.Size = new System.Drawing.Size(1215, 745);
+            this.cashierOrderForm1.TabIndex = 1;
             // 
             // adminAddProducts1
             // 
             this.adminAddProducts1.BackColor = System.Drawing.Color.Lavender;
-            this.adminAddProducts1.Location = new System.Drawing.Point(-3, 3);
+            this.adminAddProducts1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.adminAddProducts1.Location = new System.Drawing.Point(0, 0);
             this.adminAddProducts1.Name = "adminAddProducts1";
-            this.adminAddProducts1.Size = new System.Drawing.Size(1199, 739);
-            this.adminAddProducts1.TabIndex = 1;
+            this.adminAddProducts1.Size = new System.Drawing.Size(1215, 745);
+            this.adminAddProducts1.TabIndex = 2;
             // 
             // adminDashboardForm1
             // 
             this.adminDashboardForm1.BackColor = System.Drawing.Color.Lavender;
-            this.adminDashboardForm1.Location = new System.Drawing.Point(-3, 0);
+            this.adminDashboardForm1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.adminDashboardForm1.Location = new System.Drawing.Point(0, 0);
             this.adminDashboardForm1.Name = "adminDashboardForm1";
-            this.adminDashboardForm1.Size = new System.Drawing.Size(1197, 745);
-            this.adminDashboardForm1.TabIndex = 0;
+            this.adminDashboardForm1.Size = new System.Drawing.Size(1215, 745);
+            this.adminDashboardForm1.TabIndex = 3;
             // 
             // CashierMainForm
             // 
@@ -278,8 +295,8 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -303,5 +320,6 @@
         private AdminDashboardForm adminDashboardForm1;
         private AdminAddProducts adminAddProducts1;
         private CashierOrderForm cashierOrderForm1;
+        private CashierCustomersForm cashierCustomersForm1;
     }
 }

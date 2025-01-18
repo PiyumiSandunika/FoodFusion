@@ -58,4 +58,13 @@ SELECT MAX(customer_id) FROM orders
 
 SELECT SUM(prod_price) FROM orders WHERE customer_id = 1
 
+SELECT * FROM customers
+
+SELECT * FROM users
+
+SELECT SUM(total_price) FROM customers
+
+SELECT SUM(total_price) FROM customers WHERE DATE = '2025-01-18'
+
+
 

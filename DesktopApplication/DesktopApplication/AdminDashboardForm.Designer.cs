@@ -30,22 +30,23 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
+            this.dashboard_TIn = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
+            this.dashboard_TI = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.dashboard_TCust = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.dashboard_TC = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -55,6 +56,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -66,31 +69,31 @@
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Location = new System.Drawing.Point(12, 19);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1175, 212);
+            this.panel1.Size = new System.Drawing.Size(1188, 212);
             this.panel1.TabIndex = 0;
             // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Teal;
-            this.panel6.Controls.Add(this.label7);
+            this.panel6.Controls.Add(this.dashboard_TIn);
             this.panel6.Controls.Add(this.label8);
             this.panel6.Controls.Add(this.pictureBox4);
-            this.panel6.Location = new System.Drawing.Point(884, 18);
+            this.panel6.Location = new System.Drawing.Point(893, 18);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(280, 175);
+            this.panel6.Size = new System.Drawing.Size(285, 175);
             this.panel6.TabIndex = 3;
             // 
-            // label7
+            // dashboard_TIn
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Teal;
-            this.label7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(194, 126);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 32);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "$0.0";
+            this.dashboard_TIn.AutoSize = true;
+            this.dashboard_TIn.BackColor = System.Drawing.Color.Teal;
+            this.dashboard_TIn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashboard_TIn.ForeColor = System.Drawing.Color.White;
+            this.dashboard_TIn.Location = new System.Drawing.Point(117, 126);
+            this.dashboard_TIn.Name = "dashboard_TIn";
+            this.dashboard_TIn.Size = new System.Drawing.Size(99, 32);
+            this.dashboard_TIn.TabIndex = 12;
+            this.dashboard_TIn.Text = "Rs 0.0";
             // 
             // label8
             // 
@@ -117,25 +120,25 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Teal;
-            this.panel5.Controls.Add(this.label5);
+            this.panel5.Controls.Add(this.dashboard_TI);
             this.panel5.Controls.Add(this.label6);
             this.panel5.Controls.Add(this.pictureBox3);
-            this.panel5.Location = new System.Drawing.Point(593, 18);
+            this.panel5.Location = new System.Drawing.Point(599, 18);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(280, 175);
+            this.panel5.Size = new System.Drawing.Size(285, 175);
             this.panel5.TabIndex = 2;
             // 
-            // label5
+            // dashboard_TI
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Teal;
-            this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(193, 126);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 32);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "$0.0";
+            this.dashboard_TI.AutoSize = true;
+            this.dashboard_TI.BackColor = System.Drawing.Color.Teal;
+            this.dashboard_TI.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashboard_TI.ForeColor = System.Drawing.Color.White;
+            this.dashboard_TI.Location = new System.Drawing.Point(118, 126);
+            this.dashboard_TI.Name = "dashboard_TI";
+            this.dashboard_TI.Size = new System.Drawing.Size(99, 32);
+            this.dashboard_TI.TabIndex = 9;
+            this.dashboard_TI.Text = "Rs 0.0";
             // 
             // label6
             // 
@@ -162,25 +165,25 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Teal;
-            this.panel4.Controls.Add(this.label3);
+            this.panel4.Controls.Add(this.dashboard_TCust);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.pictureBox2);
-            this.panel4.Location = new System.Drawing.Point(302, 18);
+            this.panel4.Location = new System.Drawing.Point(305, 18);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(280, 175);
+            this.panel4.Size = new System.Drawing.Size(285, 175);
             this.panel4.TabIndex = 1;
             // 
-            // label3
+            // dashboard_TCust
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Teal;
-            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(236, 126);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 32);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "0";
+            this.dashboard_TCust.AutoSize = true;
+            this.dashboard_TCust.BackColor = System.Drawing.Color.Teal;
+            this.dashboard_TCust.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashboard_TCust.ForeColor = System.Drawing.Color.White;
+            this.dashboard_TCust.Location = new System.Drawing.Point(236, 126);
+            this.dashboard_TCust.Name = "dashboard_TCust";
+            this.dashboard_TCust.Size = new System.Drawing.Size(31, 32);
+            this.dashboard_TCust.TabIndex = 6;
+            this.dashboard_TCust.Text = "0";
             // 
             // label4
             // 
@@ -188,7 +191,7 @@
             this.label4.BackColor = System.Drawing.Color.Teal;
             this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(95, 47);
+            this.label4.Location = new System.Drawing.Point(94, 47);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(177, 21);
             this.label4.TabIndex = 5;
@@ -207,25 +210,25 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Teal;
-            this.panel3.Controls.Add(this.label1);
+            this.panel3.Controls.Add(this.dashboard_TC);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.pictureBox1);
             this.panel3.Location = new System.Drawing.Point(11, 18);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(280, 175);
+            this.panel3.Size = new System.Drawing.Size(285, 175);
             this.panel3.TabIndex = 0;
             // 
-            // label1
+            // dashboard_TC
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Teal;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(234, 126);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(31, 32);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "0";
+            this.dashboard_TC.AutoSize = true;
+            this.dashboard_TC.BackColor = System.Drawing.Color.Teal;
+            this.dashboard_TC.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashboard_TC.ForeColor = System.Drawing.Color.White;
+            this.dashboard_TC.Location = new System.Drawing.Point(234, 126);
+            this.dashboard_TC.Name = "dashboard_TC";
+            this.dashboard_TC.Size = new System.Drawing.Size(31, 32);
+            this.dashboard_TC.TabIndex = 3;
+            this.dashboard_TC.Text = "0";
             // 
             // label2
             // 
@@ -252,10 +255,19 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Location = new System.Drawing.Point(13, 249);
+            this.panel2.Controls.Add(this.pictureBox5);
+            this.panel2.Location = new System.Drawing.Point(15, 249);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1174, 476);
+            this.panel2.Size = new System.Drawing.Size(1185, 476);
             this.panel2.TabIndex = 4;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Location = new System.Drawing.Point(16, 17);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(1153, 443);
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
             // 
             // AdminDashboardForm
             // 
@@ -265,7 +277,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "AdminDashboardForm";
-            this.Size = new System.Drawing.Size(1197, 745);
+            this.Size = new System.Drawing.Size(1215, 745);
             this.panel1.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
@@ -279,6 +291,8 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -293,15 +307,16 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label dashboard_TC;
+        private System.Windows.Forms.Label dashboard_TCust;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label dashboard_TI;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label dashboard_TIn;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }

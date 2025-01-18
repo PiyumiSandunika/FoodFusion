@@ -15,3 +15,4 @@ C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplicati
 C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.AdminAddProducts.resources
 C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.CashierMainForm.resources
 C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.CashierOrderForm.resources
+C:\Users\User\Desktop\GUI PROJECT\FoodFusion\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.CashierCustomersForm.resources
