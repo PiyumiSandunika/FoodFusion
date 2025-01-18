@@ -11,12 +11,12 @@ namespace DesktopApplication
     class CashierOrdersData
     {
         SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\restaurant.mdf;Integrated Security=True;Connect Timeout=30");
-        public int CID { get; set; }
-        public string ProdID { get; set; }
-        public string ProdName { get; set; }
-        public string ProdType { get; set; }
-        public int Qty { get; set; }
-        public string Price { get; set; }
+        public int CID { get; set; } //0
+        public string ProdID { get; set; } //1 
+        public string ProdName { get; set; } //2
+        public string ProdType { get; set; } //3
+        public int Qty { get; set; } //4
+        public string Price { get; set; } //5
 
         public List<CashierOrdersData> ordersListData()
         {

@@ -37,12 +37,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.register_loginBtn = new System.Windows.Forms.Button();
             this.register_cPassword = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.close = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -150,16 +150,6 @@
             this.label6.TabIndex = 9;
             this.label6.Text = "Restaurant Management System";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::DesktopApplication.Properties.Resources.cutlery;
-            this.pictureBox1.Location = new System.Drawing.Point(138, 84);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -222,6 +212,16 @@
             this.close.TabIndex = 19;
             this.close.Text = "X";
             this.close.Click += new System.EventHandler(this.close_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::DesktopApplication.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(138, 84);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(125, 120);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
             // 
             // RegisterForm
             // 

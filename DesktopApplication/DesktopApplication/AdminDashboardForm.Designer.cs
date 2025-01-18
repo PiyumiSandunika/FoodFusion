@@ -32,32 +32,34 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.dashboard_TIn = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.dashboard_TI = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.dashboard_TCust = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dashboard_TC = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -67,7 +69,7 @@
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel3);
-            this.panel1.Location = new System.Drawing.Point(12, 19);
+            this.panel1.Location = new System.Drawing.Point(12, 26);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1188, 212);
             this.panel1.TabIndex = 0;
@@ -107,16 +109,6 @@
             this.label8.TabIndex = 11;
             this.label8.Text = "Total Income";
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::DesktopApplication.Properties.Resources.icons8_money_100;
-            this.pictureBox4.Location = new System.Drawing.Point(12, 44);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(80, 80);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 10;
-            this.pictureBox4.TabStop = false;
-            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Teal;
@@ -151,16 +143,6 @@
             this.label6.Size = new System.Drawing.Size(149, 21);
             this.label6.TabIndex = 8;
             this.label6.Text = "Today\'s Income";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::DesktopApplication.Properties.Resources.icons8_money_100__1_;
-            this.pictureBox3.Location = new System.Drawing.Point(12, 44);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(80, 80);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 7;
-            this.pictureBox3.TabStop = false;
             // 
             // panel4
             // 
@@ -197,16 +179,6 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Total of Customers";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::DesktopApplication.Properties.Resources.icons8_users_100;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 44);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(80, 80);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Teal;
@@ -242,6 +214,66 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Total of Cashiers";
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Silver;
+            this.panel2.Controls.Add(this.pictureBox5);
+            this.panel2.Controls.Add(this.pictureBox6);
+            this.panel2.Location = new System.Drawing.Point(12, 263);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1188, 459);
+            this.panel2.TabIndex = 4;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::DesktopApplication.Properties.Resources.restaurant;
+            this.pictureBox5.Location = new System.Drawing.Point(589, 22);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(580, 417);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 2;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::DesktopApplication.Properties.Resources.restaurant_2;
+            this.pictureBox6.Location = new System.Drawing.Point(18, 22);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(622, 417);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 1;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::DesktopApplication.Properties.Resources.icons8_money_100;
+            this.pictureBox4.Location = new System.Drawing.Point(12, 44);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(80, 80);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 10;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::DesktopApplication.Properties.Resources.icons8_money_100__1_;
+            this.pictureBox3.Location = new System.Drawing.Point(12, 44);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(80, 80);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 7;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::DesktopApplication.Properties.Resources.icons8_users_100;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 44);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(80, 80);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::DesktopApplication.Properties.Resources.icons8_user_100;
@@ -251,23 +283,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Location = new System.Drawing.Point(15, 249);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1185, 476);
-            this.panel2.TabIndex = 4;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Location = new System.Drawing.Point(16, 17);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(1153, 443);
-            this.pictureBox5.TabIndex = 0;
-            this.pictureBox5.TabStop = false;
             // 
             // AdminDashboardForm
             // 
@@ -281,18 +296,19 @@
             this.panel1.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -317,6 +333,7 @@
         private System.Windows.Forms.Label dashboard_TIn;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
     }
 }

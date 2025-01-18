@@ -25,6 +25,19 @@ namespace DesktopApplication
             displayTotalIncome();
         }
 
+        public void refreshData()
+        {
+            if (InvokeRequired)
+            {
+                Invoke((MethodInvoker)refreshData);
+                return;
+            }
+            displayTotalCashier();
+            displayTotalCustomers();
+            displayTodaysIncome();
+            displayTotalIncome();
+        }
+
         public void displayTotalCashier()
         {
             if(connect.State == ConnectionState.Closed)

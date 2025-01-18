@@ -45,6 +45,14 @@ namespace DesktopApplication
             adminDashboardForm1.Visible = true;
             adminAddUsers1.Visible = false;
             adminAddProducts1.Visible = false;
+            cashierCustomersForm1.Visible = false;
+
+            AdminDashboardForm adForm = adminDashboardForm1 as AdminDashboardForm;
+
+            if(adForm != null)
+            {
+                adForm.refreshData();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -52,6 +60,14 @@ namespace DesktopApplication
             adminDashboardForm1.Visible = false;
             adminAddUsers1.Visible = true;
             adminAddProducts1.Visible = false;
+            cashierCustomersForm1.Visible = false;
+
+            AdminAddUsers aaUsers = adminAddUsers1 as AdminAddUsers;
+
+            if (aaUsers != null)
+            {
+                aaUsers.refreshData();
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -59,6 +75,29 @@ namespace DesktopApplication
             adminDashboardForm1.Visible = false;
             adminAddUsers1.Visible = false;
             adminAddProducts1.Visible = true;
+            cashierCustomersForm1.Visible = false;
+
+            AdminAddProducts aaProd = adminAddProducts1 as AdminAddProducts;
+            
+            if (aaProd != null)
+            {
+                aaProd.refreshData();
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            adminDashboardForm1.Visible = false;
+            adminAddUsers1.Visible = false;
+            adminAddProducts1.Visible = false;
+            cashierCustomersForm1.Visible = true;
+
+            CashierCustomersForm ccForm = cashierCustomersForm1 as CashierCustomersForm;
+
+            if (ccForm != null)
+            {
+                ccForm.refreshData();
+            }
         }
     }
 }

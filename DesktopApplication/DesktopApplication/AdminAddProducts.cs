@@ -23,6 +23,16 @@ namespace DesktopApplication
             displayData();
         }
 
+        public void refreshData()
+        {
+            if (InvokeRequired)
+            {
+                Invoke((MethodInvoker)refreshData);
+                return;
+            }
+            displayData();
+        }
+
         public bool emptyFields()
         {
             if (adminAddProducts_id.Text == "" || adminAddProducts_name.Text == ""
@@ -299,6 +309,16 @@ namespace DesktopApplication
                     }
                 }
             }
+        }
+
+        private void adminAddProducts_id_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

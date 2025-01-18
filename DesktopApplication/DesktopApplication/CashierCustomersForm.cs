@@ -19,6 +19,16 @@ namespace DesktopApplication
             displayCustomersData();
         }
 
+        public void refreshData()
+        {
+            if (InvokeRequired)
+            {
+                Invoke((MethodInvoker)refreshData);
+                return;
+            }
+            displayCustomersData();
+        }
+
         public void displayCustomersData()
         {
             CustomersData cData = new CustomersData();

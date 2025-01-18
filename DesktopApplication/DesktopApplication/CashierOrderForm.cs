@@ -22,6 +22,20 @@ namespace DesktopApplication
             displayTotalPrice();
         }
 
+        public void refreshData()
+        {
+            if (InvokeRequired)
+            {
+                Invoke((MethodInvoker)refreshData);
+                return;
+            }
+
+            displayAvailableProds();
+            displayAllOrders();
+
+            displayTotalPrice();
+        }
+
         public void displayAvailableProds()  //display available data in menu
         {
             CashierOrderFormProdData allProds = new CashierOrderFormProdData();
@@ -140,6 +154,7 @@ namespace DesktopApplication
                             cmd.Parameters.AddWithValue("@orderDate", today);
 
                             cmd.ExecuteNonQuery();
+                            clearOrders();
 
                             displayTotalPrice();
                             displayAllOrders();
@@ -466,6 +481,30 @@ namespace DesktopApplication
             y = e.MarginBounds.Bottom - labelMargin - labelFont.GetHeight(e.Graphics);
             e.Graphics.DrawString(labelText, labelFont
                 , Brushes.Black, e.MarginBounds.Right - e.Graphics.MeasureString("------------------------------", labelFont).Width, y);
+        }
+
+        public void clearOrders()
+        {
+            //cashierOrderForm_type.SelectedIndex = -1;
+            //cashierOrderForm_productName.Text = "";
+            //cashierOrderForm_price.Text = "";
+            //cashierOrderForm_productID.SelectedIndex = -1;
+            //cashierOrderForm_qauntity.Value = 0;
+        }
+
+        private void cashierOrderForm_clearBtn_Click(object sender, EventArgs e)
+        {
+            //clearOrders();
+        }
+
+        private void cashierOrderForm_removeBtn_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void cashierOrderForm_orderTable_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

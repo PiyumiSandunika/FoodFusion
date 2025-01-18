@@ -167,6 +167,9 @@
     <Content Include="Assets\icons8-money-100.png" />
     <Content Include="Assets\icons8-user-100.png" />
     <Content Include="Assets\icons8-users-100.png" />
+    <Content Include="Assets\logo.png" />
+    <Content Include="Assets\restaurant 2.jpeg" />
+    <Content Include="Assets\restaurant.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
