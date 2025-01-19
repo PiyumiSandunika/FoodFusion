@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\cashierorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\cashierorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\user\\desktop\\gui project\\foodfusion\\desktopapplication\\desktopapplication\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -11,27 +15,23 @@
       "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\adminaddproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\cashierorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\cashierorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\user\\desktop\\gui project\\foodfusion\\desktopapplication\\desktopapplication\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\user\\desktop\\gui project\\foodfusion\\desktopapplication\\desktopapplication\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\user\\desktop\\gui project\\foodfusion\\desktopapplication\\desktopapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\user\\desktop\\gui project\\foodfusion\\desktopapplication\\desktopapplication\\cashiermainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\cashiermainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\cashiermainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\user\\desktop\\gui project\\foodfusion\\desktopapplication\\desktopapplication\\adminaddusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\adminaddusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\adminaddusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,20 +39,12 @@
       "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\adminaddproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\user\\desktop\\gui project\\foodfusion\\desktopapplication\\desktopapplication\\cashierorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\cashierorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\cashierorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DesktopApplication\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DesktopApplication\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DesktopApplication\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
@@ -73,8 +65,7 @@
               "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\CashierMainForm.cs [Design]",
               "RelativeToolTip": "DesktopApplication\\CashierMainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T21:21:09.143Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-18T21:21:09.143Z"
             },
             {
               "$type": "Document",
@@ -85,8 +76,7 @@
               "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminMainForm.cs [Design]",
               "RelativeToolTip": "DesktopApplication\\AdminMainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T21:20:17.318Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-18T21:20:17.318Z"
             },
             {
               "$type": "Document",
@@ -97,8 +87,7 @@
               "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\Form1.cs [Design]",
               "RelativeToolTip": "DesktopApplication\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T21:19:29.459Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-18T21:19:29.459Z"
             },
             {
               "$type": "Document",
@@ -109,12 +98,11 @@
               "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\RegisterForm.cs [Design]",
               "RelativeToolTip": "DesktopApplication\\RegisterForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T21:17:22.453Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-18T21:17:22.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AdminDashboardForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminDashboardForm.cs",
               "RelativeDocumentMoniker": "DesktopApplication\\AdminDashboardForm.cs",
@@ -134,8 +122,7 @@
               "RelativeToolTip": "DesktopApplication\\AdminAddProducts.cs",
               "ViewState": "AgIAALEAAAAAAAAAAAAywPYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T13:41:35.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T13:41:35.691Z"
             },
             {
               "$type": "Document",
@@ -160,12 +147,11 @@
               "RelativeToolTip": "DesktopApplication\\AdminAddUsers.cs",
               "ViewState": "AgIAAMkAAAAAAAAAAAAIwLIAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T18:14:00.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T18:14:00.475Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CashierOrderForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\CashierOrderForm.cs",
               "RelativeDocumentMoniker": "DesktopApplication\\CashierOrderForm.cs",
@@ -177,26 +163,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AdminAddProducts.cs [Design]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminAddProducts.cs",
               "RelativeDocumentMoniker": "DesktopApplication\\AdminAddProducts.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminAddProducts.cs [Design]",
               "RelativeToolTip": "DesktopApplication\\AdminAddProducts.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T14:32:50.881Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-18T14:32:50.881Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "SQLQuery1.sql ",
+              "Title": "SQLQuery1.sql",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\SQLQuery1.sql",
               "RelativeDocumentMoniker": "DesktopApplication\\SQLQuery1.sql",
-              "ToolTip": "SQLQuery1.sql ",
+              "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\SQLQuery1.sql",
+              "RelativeToolTip": "DesktopApplication\\SQLQuery1.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-01-11T07:48:22.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T07:48:22.165Z"
             }
           ]
         }
