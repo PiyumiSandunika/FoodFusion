@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\cashierorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\user\\desktop\\gui project\\foodfusion\\desktopapplication\\desktopapplication\\cashierorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\cashierorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\user\\desktop\\gui project\\foodfusion\\desktopapplication\\desktopapplication\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -109,8 +109,7 @@
               "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminDashboardForm.cs [Design]",
               "RelativeToolTip": "DesktopApplication\\AdminDashboardForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T18:51:57.884Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-18T18:51:57.884Z"
             },
             {
               "$type": "Document",

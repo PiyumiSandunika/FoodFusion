@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\cashierorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\cashierorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|c:\\users\\user\\desktop\\gui project\\foodfusion\\desktopapplication\\desktopapplication\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\adminaddproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\adminaddproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\cashierorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|solutionrelative:desktopapplication\\cashierorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C66DF3B1-E5B0-4449-A258-166A644618D6}|DesktopApplication\\DesktopApplication.csproj|C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\desktopapplication\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AdminDashboardForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminDashboardForm.cs",
               "RelativeDocumentMoniker": "DesktopApplication\\AdminDashboardForm.cs",
@@ -134,7 +134,8 @@
               "RelativeToolTip": "DesktopApplication\\CashierOrderForm.cs",
               "ViewState": "AgIAAHcAAAAAAAAAAAAmwJ0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T18:40:53.253Z"
+              "WhenOpened": "2025-01-18T18:40:53.253Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -150,18 +151,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CashierOrderForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\CashierOrderForm.cs",
               "RelativeDocumentMoniker": "DesktopApplication\\CashierOrderForm.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\CashierOrderForm.cs [Design]",
               "RelativeToolTip": "DesktopApplication\\CashierOrderForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T14:34:37.502Z"
+              "WhenOpened": "2025-01-18T14:34:37.502Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AdminAddProducts.cs [Design]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\GUI PROJECT\\FoodFusion\\DesktopApplication\\DesktopApplication\\AdminAddProducts.cs",
               "RelativeDocumentMoniker": "DesktopApplication\\AdminAddProducts.cs",
