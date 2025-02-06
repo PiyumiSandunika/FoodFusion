@@ -26,7 +26,26 @@ import food_9 from './food_9.png'
 import food_10 from './food_10.png'
 import food_11 from './food_11.png'
 import food_12 from './food_12.png'
-
+import food_13 from './food_13.png'
+import food_14 from './food_14.png'
+import food_15 from './food_15.png'
+import food_16 from './food_16.png'
+import food_17 from './food_17.png'
+import food_18 from './food_18.png'
+import food_19 from './food_19.png'
+import food_20 from './food_20.png'
+import food_21 from './food_21.png'
+import food_22 from './food_22.png'
+import food_23 from './food_23.png'
+import food_24 from './food_24.png'
+import food_25 from './food_25.png'
+import food_26 from './food_26.png'
+import food_27 from './food_27.png'
+import food_28 from './food_28.png'
+import food_29 from './food_29.png'
+import food_30 from './food_30.png'
+import food_31 from './food_31.png'
+import food_32 from './food_32.png'
 
 
 export const assets = {
@@ -169,6 +188,165 @@ export const food_list = [
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Dessert"
+    },
+    {
+        _id: "13",
+        name: "Club Sandwich",
+        image: food_13,
+        price: 10,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Sandwich"
+    },
+    {
+        _id: "15",
+        name: "Reuben Sandwich",
+        image: food_15,
+        price: 20,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Sandwich"
+    },
+    {
+        _id: "16",
+        name: "Cheese Sandwich",
+        image: food_16,
+        price: 15,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Sandwich"
+    },
+    {
+        _id: "14",
+        name: "BLT",
+        image: food_14,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Sandwich"
+    },
+    {
+        _id: "17",
+        name: "Cheesecake",
+        image: food_17,
+        price: 18,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
+    },
+    {
+        _id: "18",
+        name: "Red Velvet Cake",
+        image: food_18,
+        price: 20,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
+    },
+    {
+        _id: "19",
+        name: "Choco Fudge Cake",
+        image: food_19,
+        price: 20,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
+    },
+    {
+        _id: "20",
+        name: "Tiramisu",
+        image: food_20,
+        price: 15,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
+    },
+    {
+        _id: "21",
+        name: "Veggie Burger",
+        image: food_21,
+        price: 15,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
+    },
+    {
+        _id: "22",
+        name: "Margherita Pizza",
+        image: food_22,
+        price: 18,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
+    },
+    {
+        _id: "23",
+        name: "Veggie Sushi Rolls",
+        image: food_23,
+        price: 20,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
+    },
+    {
+        _id: "24",
+        name: "Falafel Wrap",
+        image: food_24,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
+    },
+    {
+        _id: "25",
+        name: "Pesto Pasta",
+        image: food_25,
+        price: 10,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pasta"
+    },
+    {
+        _id: "26",
+        name: "Macaroni",
+        image: food_26,
+        price: 10,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pasta"
+    },
+    {
+        _id: "27",
+        name: "Tandoori Pasta",
+        image: food_27,
+        price: 18,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pasta"
+    },
+    {
+        _id: "28",
+        name: "Carbonara",
+        image: food_28,
+        price: 18,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pasta"
+    },
+    {
+        _id: "29",
+        name: "Pho",
+        image: food_29,
+        price: 15,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
+    },
+    {
+        _id: "30",
+        name: "Soba Noodles",
+        image: food_30,
+        price: 15,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
+    },
+    {
+        _id: "31",
+        name: "Pad Thai",
+        image: food_31,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
+    },
+    {
+        _id: "32",
+        name: "Yaki Udon",
+        image: food_32,
+        price: 20,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
     }
-
 ]
