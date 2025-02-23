@@ -8,6 +8,7 @@ const Navbar = () => {
 
   return(
     <div className='navbar'>
+        <img src={assets.logo} alt="" className="logo-icon"/>
         <img src={assets.res_name} alt="" className="logo"/>
         <ul className="navbar-menu">
           <li onClick={()=>setMenu("home")} className={menu==="home"?"active":""}>home</li>

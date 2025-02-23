@@ -40,10 +40,12 @@
   .food-item-name-rating p{
     font-size: 20px;
     font-weight: 500;
+    margin-top: 25px;
   }
   
   .food-item-name-rating img {
     width: 80px;
+    margin-top: 25px;
   }
   
   .food-item-desc {
@@ -57,4 +59,86 @@
     color: tomato;
     margin: 10px 0px;
   }
-  
+
+
+/* Before Clicking */
+.add {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  position: absolute;
+  top: 220px;
+  right: 10px;
+  background-color: rgba(202, 194, 194, 0.8);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.add:hover {
+  transform: scale(1.1);
+}
+
+.add:active {
+  transform: scale(0.9);
+}
+
+/* Appears After Clicking the Add Button */
+.food-item-counter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #c8ecd3;
+  border-radius: 20px;
+  padding: 4px 4px;
+  position: absolute;
+  top: 253px;
+  right: 10px;
+}
+
+/* Remove Icon (Left Side of Counter) */
+.remove {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.1);
+  border-radius: 50%;
+  padding: 2.5px;
+  transition: transform 0.2s;
+}
+
+.remove:hover {
+  background-color: rgba(255, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+/* Green Add Icon (Right Side of Counter) */
+.add-green {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  background-color: rgba(0, 128, 0, 0.1);
+  border-radius: 50%;
+  padding: 2.5px;
+  transition: transform 0.2s;
+}
+
+.add-green:hover {
+  background-color: rgba(122, 9, 35, 0.2);
+  transform: scale(1.1);
+}
+
+/* Styling for the Count Text */
+.food-item-counter p {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  color: #333;
+}
+
+.food-item-img-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

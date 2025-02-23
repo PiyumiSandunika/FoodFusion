@@ -5,6 +5,14 @@ import basket_icon from './basket_icon.png'
 import header_img from './header_img.jpg'
 import rating_starts from './rating_starts.png'
 
+import add_icon_white from './add_icon_white.png'
+import remove_icon_red from './remove_icon_red.png'
+import add_icon_green from './add_icon_green.png'
+
+import facebook_icon from './facebook_icon.png'
+import twitter_icon from './twitter_icon.png'
+import linkedin_icon from './linkedin_icon.png'
+
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
 import menu_3 from './menu_3.png'
@@ -54,7 +62,15 @@ export const assets = {
     search_icon,
     basket_icon,
     header_img,
-    rating_starts
+    rating_starts,
+
+    add_icon_white,
+    remove_icon_red,
+    add_icon_green,
+
+    facebook_icon,
+    twitter_icon,
+    linkedin_icon
 }
 
 export const menu_list =[
