@@ -13,6 +13,11 @@ import facebook_icon from './facebook_icon.png'
 import twitter_icon from './twitter_icon.png'
 import linkedin_icon from './linkedin_icon.png'
 
+import play_store from './play_store.png'
+import app_store from './app_store.png'
+
+import cross_icon from './cross_icon.png'
+
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
 import menu_3 from './menu_3.png'
@@ -70,7 +75,12 @@ export const assets = {
 
     facebook_icon,
     twitter_icon,
-    linkedin_icon
+    linkedin_icon,
+
+    app_store,
+    play_store,
+
+    cross_icon
 }
 
 export const menu_list =[

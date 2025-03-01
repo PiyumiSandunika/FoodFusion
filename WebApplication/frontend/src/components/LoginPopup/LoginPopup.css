@@ -1,0 +1,124 @@
+.login-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.login-popup-container {
+    background: white;
+    width: 350px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.login-popup-tittle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login-popup-tittle h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.login-popup-tittle img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.login-popup-tittle img:hover {
+    transform: scale(1.2);
+}
+
+.login-popup-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.login-popup-inputs input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+.login-popup-inputs input:focus {
+    border-color: rgb(62, 116, 110);
+}
+
+.login-popup button {
+    width: 100%;
+    background: rgb(62, 116, 110);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s ease-in-out;
+}
+
+.login-popup button:hover {
+    background: rgb(14, 77, 68);
+}
+
+.login-popup-condition {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    margin: 15px 0;
+    color: #555;
+}
+
+.login-popup-condition input {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.login-popup p {
+    font-size: 14px;
+    color: #555;
+}
+
+.login-popup p span {
+    color: rgb(62, 116, 110);
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.login-popup p span:hover {
+    color: rgb(14, 77, 68);
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

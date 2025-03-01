@@ -46,3 +46,62 @@
     font-size: max(1vw,13px);
     border-radius: 50px
 }
+
+/* 1050px View - Adjusting Max Width */
+@media (max-width: 1050px) {
+    .header-contents {
+        max-width: 55%;
+    }
+    .header-contents h2 {
+        max-width: 90%;
+        font-size: max(4vw, 20px);
+        position: relative;
+        top: -10px;
+    }
+    .header-contents p {
+        font-size: max(1vw, 14px); /* Ensures it doesn't shrink too much */
+        top: 120%; /* Keeps the same position */
+        left: 68%;  /* Adjust slightly for centering */
+        font-size: 50%;
+    }
+}
+
+/* 750px View - Mobile Optimization */
+@media (max-width: 750px) {
+    .header-contents {
+        max-width: 65%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .header-contents h2 {
+        font-size: max(3vw, 16px);
+        max-width: 80%;
+        position: relative;
+        top: 20px;
+        left: 0px;
+
+    }
+
+    .header-contents p {
+        display: none;
+    }
+
+    .header-contents button {
+        padding: 2vw 4vw;
+        font-size: max(1.2vw, 14px);
+        position: relative;
+        bottom: -70px;
+        left: 90px;
+    }
+}
+
+@media (max-width: 600px){
+    .header-contents button {
+        padding: 1.5vw 2vw;
+        font-size: max(1.2vw, 14px);
+        position: relative;
+        bottom: -50px;
+        left: 45px;
+    }   
+}

@@ -7,7 +7,7 @@
     flex-direction: column;
     gap: 20px;
     padding-top: 40px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .footer-content {
@@ -114,20 +114,17 @@ hr {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     .footer-content {
+        display: flex;
         flex-direction: column;
+        gap: 35px;
+    }
+    .footer-copyright{
         text-align: center;
     }
-
-    .footer-content-left,
-    .footer-content-center,
-    .footer-content-right {
-        margin: 10px 0;
-    }
-
-    .footer-social-icon {
-        justify-content: center;
+    .footer-content-left img.logo_1{
+        display: none;
     }
 }
 
