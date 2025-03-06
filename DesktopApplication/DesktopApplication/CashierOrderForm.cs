@@ -36,6 +36,20 @@ namespace DesktopApplication
             displayTotalPrice();
         }
 
+        public bool emptyFields()
+        {
+            if (cashierOrderForm_type.SelectedIndex == -1 || cashierOrderForm_productID.SelectedIndex == -1
+                || cashierOrderForm_productName.Text == "" || cashierOrderForm_qauntity.Value == 0
+                || cashierOrderForm_price.Text == "")
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
         public void displayAvailableProds()  //display available data in menu
         {
             CashierOrderFormProdData allProds = new CashierOrderFormProdData();
@@ -485,26 +499,44 @@ namespace DesktopApplication
 
         public void clearOrders()
         {
-            //cashierOrderForm_type.SelectedIndex = -1;
-            //cashierOrderForm_productName.Text = "";
-            //cashierOrderForm_price.Text = "";
-            //cashierOrderForm_productID.SelectedIndex = -1;
-            //cashierOrderForm_qauntity.Value = 0;
+            // Clear the type ComboBox
+            cashierOrderForm_type.SelectedIndex = -1;
+            cashierOrderForm_type.Text = ""; // Clear the text
+
+            // Clear the productID ComboBox
+            cashierOrderForm_productID.SelectedIndex = -1;
+            cashierOrderForm_productID.Items.Clear(); // Clear the items
+            cashierOrderForm_productID.Text = ""; // Clear the text
+
+            // Clear other fields
+            cashierOrderForm_productName.Text = "";
+            cashierOrderForm_price.Text = "";
+            cashierOrderForm_qauntity.Value = 0;
         }
 
         private void cashierOrderForm_clearBtn_Click(object sender, EventArgs e)
         {
-            //clearOrders();
+            clearOrders();
         }
 
         private void cashierOrderForm_removeBtn_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void cashierOrderForm_orderTable_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex != -1)
+            {
+                DataGridViewRow row = cashierOrderForm_orderTable.Rows[e.RowIndex];
 
+                cashierOrderForm_type.Text = row.Cells[1].Value.ToString();
+                cashierOrderForm_productID.Text = row.Cells[2].Value.ToString();
+                cashierOrderForm_productName.Text = row.Cells[3].Value.ToString();
+                cashierOrderForm_price.Text = row.Cells[5].Value.ToString();
+                cashierOrderForm_qauntity.Text = row.Cells[4].Value.ToString();
+
+            }
         }
     }
 }

@@ -184,13 +184,13 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.username.AutoSize = true;
-            this.username.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.username.ForeColor = System.Drawing.Color.White;
+            this.username.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.username.ForeColor = System.Drawing.Color.Black;
             this.username.Location = new System.Drawing.Point(160, 219);
             this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(62, 20);
+            this.username.Size = new System.Drawing.Size(79, 21);
             this.username.TabIndex = 15;
-            this.username.Text = "Admin";
+            this.username.Text = "Cashier";
             // 
             // label3
             // 

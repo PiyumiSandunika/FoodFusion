@@ -10,6 +10,7 @@
 )
 
 SELECT * FROM users
+TRUNCATE TABLE users
 
 INSERT INTO users (username, password, profile_image, role, status, date_reg) VALUES('admin', 'admin123', '', 'Admin', 'Active', '2023-01-06')
 
@@ -32,6 +33,7 @@ CREATE TABLE products
 )
 
 SELECT * FROM products
+TRUNCATE TABLE products
 
 SELECT * FROM products WHERE date_delete IS NULL
 

@@ -28,13 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CashierOrderForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.cashierOrderForm_removeBtn = new System.Windows.Forms.Button();
             this.cashierOrderForm_clearBtn = new System.Windows.Forms.Button();
             this.cashierOrderForm_addBtn = new System.Windows.Forms.Button();
             this.cashierOrderForm_price = new System.Windows.Forms.Label();
@@ -90,7 +89,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.cashierOrderForm_removeBtn);
             this.panel2.Controls.Add(this.cashierOrderForm_clearBtn);
             this.panel2.Controls.Add(this.cashierOrderForm_addBtn);
             this.panel2.Controls.Add(this.cashierOrderForm_price);
@@ -108,27 +106,13 @@
             this.panel2.Size = new System.Drawing.Size(774, 330);
             this.panel2.TabIndex = 1;
             // 
-            // cashierOrderForm_removeBtn
-            // 
-            this.cashierOrderForm_removeBtn.BackColor = System.Drawing.Color.Teal;
-            this.cashierOrderForm_removeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cashierOrderForm_removeBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cashierOrderForm_removeBtn.ForeColor = System.Drawing.Color.White;
-            this.cashierOrderForm_removeBtn.Location = new System.Drawing.Point(286, 240);
-            this.cashierOrderForm_removeBtn.Name = "cashierOrderForm_removeBtn";
-            this.cashierOrderForm_removeBtn.Size = new System.Drawing.Size(216, 51);
-            this.cashierOrderForm_removeBtn.TabIndex = 27;
-            this.cashierOrderForm_removeBtn.Text = "REMOVE";
-            this.cashierOrderForm_removeBtn.UseVisualStyleBackColor = false;
-            this.cashierOrderForm_removeBtn.Click += new System.EventHandler(this.cashierOrderForm_removeBtn_Click);
-            // 
             // cashierOrderForm_clearBtn
             // 
             this.cashierOrderForm_clearBtn.BackColor = System.Drawing.Color.Teal;
             this.cashierOrderForm_clearBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cashierOrderForm_clearBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cashierOrderForm_clearBtn.ForeColor = System.Drawing.Color.White;
-            this.cashierOrderForm_clearBtn.Location = new System.Drawing.Point(545, 240);
+            this.cashierOrderForm_clearBtn.Location = new System.Drawing.Point(445, 240);
             this.cashierOrderForm_clearBtn.Name = "cashierOrderForm_clearBtn";
             this.cashierOrderForm_clearBtn.Size = new System.Drawing.Size(216, 51);
             this.cashierOrderForm_clearBtn.TabIndex = 26;
@@ -142,7 +126,7 @@
             this.cashierOrderForm_addBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cashierOrderForm_addBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cashierOrderForm_addBtn.ForeColor = System.Drawing.Color.White;
-            this.cashierOrderForm_addBtn.Location = new System.Drawing.Point(27, 240);
+            this.cashierOrderForm_addBtn.Location = new System.Drawing.Point(131, 240);
             this.cashierOrderForm_addBtn.Name = "cashierOrderForm_addBtn";
             this.cashierOrderForm_addBtn.Size = new System.Drawing.Size(216, 51);
             this.cashierOrderForm_addBtn.TabIndex = 25;
@@ -231,8 +215,9 @@
             this.cashierOrderForm_type.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cashierOrderForm_type.FormattingEnabled = true;
             this.cashierOrderForm_type.Items.AddRange(new object[] {
-            "Meal",
-            "Drinks"});
+            "Salad",
+            "Rolls",
+            "Dessert"});
             this.cashierOrderForm_type.Location = new System.Drawing.Point(171, 45);
             this.cashierOrderForm_type.Name = "cashierOrderForm_type";
             this.cashierOrderForm_type.Size = new System.Drawing.Size(216, 37);
@@ -350,14 +335,14 @@
             this.cashierOrderForm_orderTable.AllowUserToDeleteRows = false;
             this.cashierOrderForm_orderTable.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.cashierOrderForm_orderTable.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.cashierOrderForm_orderTable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.cashierOrderForm_orderTable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.cashierOrderForm_orderTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.cashierOrderForm_orderTable.EnableHeadersVisualStyles = false;
             this.cashierOrderForm_orderTable.Location = new System.Drawing.Point(10, 40);
@@ -370,6 +355,7 @@
             this.cashierOrderForm_orderTable.TabIndex = 4;
             this.cashierOrderForm_orderTable.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cashierOrderForm_orderTable_CellClick);
             this.cashierOrderForm_orderTable.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cashierOrderForm_orderTable_CellClick);
+            this.cashierOrderForm_orderTable.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cashierOrderForm_orderTable_CellClick);
             // 
             // label10
             // 
@@ -387,14 +373,14 @@
             this.cashierOrderForm_menuTable.AllowUserToDeleteRows = false;
             this.cashierOrderForm_menuTable.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.cashierOrderForm_menuTable.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.cashierOrderForm_menuTable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.cashierOrderForm_menuTable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.cashierOrderForm_menuTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.cashierOrderForm_menuTable.EnableHeadersVisualStyles = false;
             this.cashierOrderForm_menuTable.Location = new System.Drawing.Point(20, 84);
@@ -462,7 +448,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label cashierOrderForm_price;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button cashierOrderForm_removeBtn;
         private System.Windows.Forms.Button cashierOrderForm_clearBtn;
         private System.Windows.Forms.Button cashierOrderForm_addBtn;
         private System.Windows.Forms.Label cashierOrderForm_orderPrice;
