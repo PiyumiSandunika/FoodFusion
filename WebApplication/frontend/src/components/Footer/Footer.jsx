@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="footer-content-left">
                 <img className="logo_1" src={assets.logo} alt="" />
                 <img className="res_name_1" src={assets.res_name} alt="" />
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. LoremIpsum has been the industry's standard dummy text even since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Welcome to FoodFusion, where culinary artistry meets timeless tradition. Our chefs craft each dish with passion and precision, using the freshest ingredients to create a symphony of flavors. At FoodFusion, dining is more than a meal—it's an experience, a celebration of life and a journey that brings people together. Join us and discover why FoodFusion is a beloved destination for food lovers everywhere.</p>
                 <div className="footer-social-icon">
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />

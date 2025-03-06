@@ -1,4 +1,5 @@
 .header{
+    padding-top: 100px;
     height: 34vw;
     width: 100%;
     margin: 10px auto;
@@ -7,6 +8,7 @@
     position: relative;
     border-radius: 15px;
     overflow: hidden;
+    margin-top: 110px;
 }
 .header-contents{
     position: absolute;
@@ -44,7 +46,12 @@
     padding: 1vw 2.3vw;
     background-color: white;
     font-size: max(1vw,13px);
-    border-radius: 50px
+    border-radius: 50px;
+    width: 200px;
+}
+.header-contents button:hover{
+    background-color: white;
+    
 }
 
 /* 1050px View - Adjusting Max Width */
@@ -53,15 +60,15 @@
         max-width: 55%;
     }
     .header-contents h2 {
-        max-width: 90%;
+        max-width: 70%;
         font-size: max(4vw, 20px);
         position: relative;
         top: -10px;
     }
     .header-contents p {
-        font-size: max(1vw, 14px); /* Ensures it doesn't shrink too much */
+        font-size: max(1vw, 14px);
         top: 120%; /* Keeps the same position */
-        left: 68%;  /* Adjust slightly for centering */
+        left: 68%;
         font-size: 50%;
     }
 }

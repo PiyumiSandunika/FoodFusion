@@ -4,10 +4,10 @@ import { StoreContext } from '../../context/StoreContext'
 
 const PlaceOrder = () => {
 
-const {getTotalCartAmount} = useContext(StoreContext)
+const {getTotalCartAmount} = useContext(StoreContext) 
 
   return (
-    <form className='place-order'>
+    <form className='place-order'>                        
       <div className="place-order-left">
         <p className="title">Delivery Information</p>
         <div className="multi-fields">
