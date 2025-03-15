@@ -7,7 +7,6 @@ A comprehensive **desktop and web-based solution** designed to streamline restau
 ## **📦 Project Structure**
 ```
 FoodFusion
-├── 📁 .vs                  # Visual Studio configuration files
 ├── 📁 DesktopApplication   # Desktop application (WPF)
 ├── 📁 WebApplication       # Web application (ASP.NET Core)
 ├── 📄 README.md            # Project documentation
@@ -27,7 +26,6 @@ FoodFusion
 
 ### **💻 Desktop Application**
 #### **User Registration & Login**
-- Secure account creation and authentication for admins and cashiers.
 
 #### **Admin Portal**
 - **Manage Users**: Add, edit, or remove user accounts.
@@ -59,7 +57,6 @@ FoodFusion
 ---
 
 ## **🔗 Clone the Repository**
-To get started with the project, clone the repository using the following command:
 ```bash
 git clone https://github.com/PiyumiSandunika/FoodFusion.git
 ```
