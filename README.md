@@ -16,7 +16,7 @@ FoodFusion
 
 ## **🌟 Features**
 
-### **🌐 Web Application (Customer-Facing)**
+### **🌐 Web Application**
 - **User Registration & Login**: Secure account creation and authentication.
 - **View Food Items & Prices**: Browse the restaurant’s menu with up-to-date pricing and descriptions.
 - **Order Food & Delivery Information**: Place orders online with delivery or pickup options.
