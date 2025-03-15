@@ -39,7 +39,7 @@ FoodFusion
 - **Dashboard**: View the number of cashiers, customers, today’s income, and total income.
 - **Customer List**: View all registered customers.
 
-- **Database**: SQLite for storing food items, users, orders, and customer information.
+**Database**: SQLite for storing food items, users, orders, and customer information.
 
 ---
 
