@@ -40,12 +40,14 @@ SELECT * FROM products WHERE date_delete IS NULL
 DELETE FROM products WHERE id = 2
 
 SELECT * FROM orders
+TRUNCATE TABLE orders
 
 SELECT * FROM orders WHERE customer_id = 1
 
 SELECT MAX(customer_id) FROM customers
 
 SELECT * FROM customers
+TRUNCATE TABLE customers
 
 ALTER TABLE customers
 ADD amount FLOAT NULL

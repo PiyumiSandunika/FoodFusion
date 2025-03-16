@@ -117,28 +117,30 @@ namespace DesktopApplication
                 {
                     connect.Open();
 
-                    string selectData = "SELECT SUM(total_price) FROM customers WHERE DATE = @date";
+                    string selectData = "SELECT COALESCE(SUM(total_price), 0) FROM customers WHERE CONVERT(DATE, date) = @date";
 
                     using (SqlCommand cmd = new SqlCommand(selectData, connect))
                     {
                         DateTime today = DateTime.Today;
 
-                        //string getToday = today.ToString("yyyy-MM-dd");
-                        cmd.Parameters.AddWithValue("@date", today);
-                        SqlDataReader reader = cmd.ExecuteReader();
+                        cmd.Parameters.AddWithValue("@date", today.ToString("yyyy-MM-dd")); // Ensure correct format
 
-                        if (reader.Read())
+                        object result = cmd.ExecuteScalar();
+
+                        if (result != null && result != DBNull.Value)
                         {
-                            int count = Convert.ToInt32(reader[0]);
-                            dashboard_TI.Text = "Rs " + count.ToString("0.00");
+                            decimal totalIncome = Convert.ToDecimal(result);
+                            dashboard_TI.Text = "Rs " + totalIncome.ToString("0.00");
                         }
-
-                        reader.Close();
+                        else
+                        {
+                            dashboard_TI.Text = "Rs 0.00";
+                        }
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Failed connection: " + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Failed connection: " + ex.Message, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 finally
                 {
@@ -146,6 +148,7 @@ namespace DesktopApplication
                 }
             }
         }
+
 
         public void displayTotalIncome()
         {
@@ -163,7 +166,7 @@ namespace DesktopApplication
 
                         if (reader.Read())
                         {
-                            int count = Convert.ToInt32(reader[0]);
+                            int count = reader[0] != DBNull.Value ? Convert.ToInt32(reader[0]) : 0;
                             dashboard_TIn.Text = "Rs " + count.ToString("0.00");
                         }
 

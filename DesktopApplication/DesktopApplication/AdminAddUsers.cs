@@ -174,73 +174,88 @@ namespace DesktopApplication
 
             try
             {
-                if (imagePath != null)
+                if (!string.IsNullOrWhiteSpace(imagePath) && File.Exists(imagePath))
                 {
                     adminAddUsers_imageView.Image = Image.FromFile(imagePath);
                 }
                 else
                 {
                     adminAddUsers_imageView.Image = null;
+                    MessageBox.Show("Image not found or invalid path.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
-            catch( Exception ex )
+            catch (Exception ex)
             {
-                MessageBox.Show("No Image :3" + ex , "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error );
+                MessageBox.Show("No Image :3 " + ex.Message, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-            
         }
 
         private void adminAddUsers_updateBtn_Click(object sender, EventArgs e)
         {
             if (emptyFields())
             {
-                MessageBox.Show("All fields are required to be filled.", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error );
+                MessageBox.Show("All fields are required to be filled.", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
-            else
+
+            DialogResult result = MessageBox.Show("Are you sure you want to update Username: " + adminAddUsers_username.Text.Trim()
+                + "?", "Confirmation Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
             {
-                DialogResult result = MessageBox.Show("Are you sure you want to Update Username: " + adminAddUsers_username.Text.Trim()
-                    + "?", "Confirmation Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-                if (result == DialogResult.Yes)
+                try
                 {
-                    if (connect.State != ConnectionState.Open)
+                    if (connect.State == ConnectionState.Closed)
                     {
-                        try
+                        connect.Open();
+                    }
+
+                    string updateData = "UPDATE users SET username = @usern, password = @pass, role = @role, status = @status, profile_image = @image WHERE id = @id";
+
+                    using (SqlCommand cmd = new SqlCommand(updateData, connect))
+                    {
+                        cmd.Parameters.AddWithValue("@usern", adminAddUsers_username.Text.Trim());
+                        cmd.Parameters.AddWithValue("@pass", adminAddUsers_password.Text.Trim());
+                        cmd.Parameters.AddWithValue("@role", adminAddUsers_role.Text.Trim());
+                        cmd.Parameters.AddWithValue("@status", adminAddUsers_status.Text.Trim());
+                        cmd.Parameters.AddWithValue("@id", id);
+
+                        // Handle Image Path
+                        if (!string.IsNullOrWhiteSpace(adminAddUsers_imageView.ImageLocation) && File.Exists(adminAddUsers_imageView.ImageLocation))
                         {
-                            connect.Open();
-
-                            string updateData = "UPDATE users SET username = @usern, password = @pass, role = @role, status = @status WHERE id = @id";
-
-                            using (SqlCommand cmd = new SqlCommand(updateData, connect))
-                            {
-                                cmd.Parameters.AddWithValue("@usern", adminAddUsers_username.Text.Trim());
-                                cmd.Parameters.AddWithValue("@pass", adminAddUsers_password.Text.Trim());
-                                cmd.Parameters.AddWithValue("@role", adminAddUsers_role.Text.Trim());
-                                cmd.Parameters.AddWithValue("@status", adminAddUsers_status.Text.Trim());
-                                cmd.Parameters.AddWithValue("@id", id);
-
-                                cmd.ExecuteNonQuery();
-                                clearFields();
-
-                                MessageBox.Show("Updated successfully!", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information );
-
-                                displayAddUsersData();
-                            }
+                            cmd.Parameters.AddWithValue("@image", adminAddUsers_imageView.ImageLocation);
                         }
-                        catch (Exception ex)
+                        else
                         {
-                            MessageBox.Show("Connection failed: " + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error );
+                            cmd.Parameters.AddWithValue("@image", DBNull.Value);
                         }
-                        finally
+
+                        // Execute the update query
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        if (rowsAffected > 0)
                         {
-                            connect.Close();
+                            MessageBox.Show("Updated successfully!", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            clearFields();
+                            displayAddUsersData();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Update failed. No changes were made.", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
                 }
-                
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Connection failed: " + ex.Message, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                finally
+                {
+                    connect.Close();
+                }
             }
         }
+
 
         public void clearFields()
         {
