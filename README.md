@@ -46,12 +46,12 @@ FoodFusion
 ## **🛠 Technologies Used**
 
 ### **Web Application**
-- **Frontend**: HTML, CSS, JavaScript (Bootstrap)
-- **Backend**: C# (ASP.NET Core)
+- **Frontend**: React.js, CSS, JavaScript
+- **Backend**: Node.js, Express.js, JavaScript
 - **Database**: MySQL
 
 ### **Desktop Application**
-- **Technology**: C# (WPF - Windows Presentation Foundation)
+- **Technology**: C# (WPF)
 - **Database**: SQLite
 
 ---
